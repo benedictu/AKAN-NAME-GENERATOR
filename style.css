@@ -1,15 +1,22 @@
- body {
-    background-image: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGxhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
 
-    .container{
-        float: center;
-        margin-top: 2cm;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
 
-    }
+   
+   .photos{
+       background-image: url(https://images.unsplash.com/photo-1590670796065-5c2469672e18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2hhbmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+       background-repeat: no-repeat;
+       height: 20cm;
+       width: auto
+   }
+
+   .content{
+       height: 19cm;
+       position: absolute;
+       top: 12px;
+       right: 16px;
+       width: 22cm;
+       margin-left: 3cm;
+   }
+
+   body{
+       background-image: url(https://images.unsplash.com/photo-1612258707587-d568bdc32061?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80);
+   }

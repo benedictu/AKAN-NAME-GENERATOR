@@ -8,45 +8,53 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="content">
-      <div class="container ">
-        <h1>Akan Name Generator</h1>
-        <p>This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
-        <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
-       
-          <form class="myform" onsubmit="return getAkanName()"><br>
-          <label for="year-of-birth">
-            Year:
-            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
-          </label>
-          <label for="month-of-birth">
-            Month:
-            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
-          </label>
-          <label for="day-of-birth">
-            Day:
-            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
-          </label>
-          <br>
-          <label for="gender">
-            <p>Select your gender: </p>
-            Male
-            <input id="male-input" type="radio" name="gender" value="male" required>
-            Female
-            <input id="female-input" type="radio" name="gender" value="female" required>
+        <section>
+          <div class="photos">
+          </div>
+          <div class="content">
+            <div class="container">
+              <h1 class=" text-capitalize text-monospace text-center color">Akan Name Generator</b></h1><br>
+              <p>This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+              <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
+                      
+                <form class="myform bg-info" onsubmit="return getAkanName()">
+                  <h4 class="text-capitalize bg-white">Please fill out all the details</h4><br>
+                <label class="bg-warning" for="year-of-birth">
+                  Year:
+                  <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+                </label>
+                <label class="bg-warning text-centre  text-monospace" for="month-of-birth">
+                  Month:
+                  <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+                </label>
+                <label class="bg-warning" for="day-of-birth">
+                  Day:
+                  <input class= "text-capitalize text-monospace text" id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+                </label>
+                <br>
+                <label class="text-capitalize text-monospace text-lg-center text" for="gender"><br>
+                  <p class="text-monospace" > Select your gender: </p>
+                  <br>Male
+                  <input id="male-input" type="radio" name="gender" value="male" required>
+                  Female
+                  <input id="female-input" type="radio" name="gender" value="female" required>
+      
+                </label>
+                <br><br>
+                <input class="bg-warning" id="get-name" type="submit" name="" value="Generate name">
+                <br><br>
+                <p  class="text-capitalize text-break text-monospace" id="result"></p>
 
-          </label>
-          <br><br>
-          <input id="get-name" type="submit" name="" value="Generate name">
-          <br><br>
-        </form>
-        <form onsubmit="return clearInput()">
-          <input class="clear" type="submit" value="Clear input">
-        </form>
+                <form onsubmit="return clearInput()">
+                  <input class="clear bg-danger text-monospace text-center" type="submit" value="Clear input"><br>
+                    <br>
+        <h4 id = display-name>
 
-
-        <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
-        <p id="result"></p>
+                </form>
+              </form>
+              
+         
+    
       </div>
     </div>
     <script src="style.js" ></script>
