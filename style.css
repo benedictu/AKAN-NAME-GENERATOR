@@ -37,12 +37,14 @@
   .slide{
     position: relative;
     width: 50%;
+    top: 12.2cm;
   }
 
   .image {
     display: block;
     width: 100%;
     height: auto;
+    top: 12.2;
   }
 
   .overlay {
