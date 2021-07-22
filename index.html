@@ -19,8 +19,9 @@
           <div class="content ">
             <div class="container">
                       
-                <form class="myform " onsubmit="return getAkanName()">
-                  <h4 class="text-capitalize text-white"><strong>Please fill out all the details</h4><br></strong>
+                <form onsubmit="return getAkanName()"><br>
+                  <br>
+                  <h4 class="text-capitalize text-white text-monospace header1"><strong>Generate Your Name Here!</h4><br></strong>
                 <label class="bg-warning" for="year-of-birth">
                   Year:
                   <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
@@ -34,12 +35,14 @@
                   <input class= "text-capitalize text-monospace text" id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
                 </label>
                 <br>
-                <label class="text-capitalize text-monospace text-lg-center text" for="gender"><br>
-                  <p class="text-monospace" > Select your gender: </p>
+            <class class="forms">
+
+                <label class="text-white text-capitalize text-monospace text-lg-center text" for="gender"><br>
+                  <p class="text-monospace text-primary" > <b>Select your gender</b> </p>
                   <br>Male
-                  <input id="male-input" type="radio" name="gender" value="male" required>
+                  <input class="text-white" id="male-input" type="radio" name="gender" value="male" required>
                   Female
-                  <input id="female-input" type="radio" name="gender" value="female" required>
+                  <input class= "text-white" id="female-input w" type="radio" name="gender" value="female" required>
       
                 </label>
                 <br><br>
@@ -49,16 +52,16 @@
 
                 <p  class="text-capitalize text-break text-monospace" id="result"></p>
                 
-                <form onsubmit="return clearInput()">
+                <class onsubmit="return clearInput()">
                   <input class="clear bg-danger text-monospace text-center" type="submit" value="Clear input"><br>
                     <br>
        
-
+            </class>
                 </form>
               </form>
               
          
-    
+         </div>
       </div>
     </div>
     <script src="style.js" ></script>
