@@ -9,17 +9,15 @@
    }
 
    .content{
+        background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.548)), url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
        top: 110vh;
+       left: 1px;
        width: 20cm;
-       height: 20cm;
+       height: 12cm;
        position: absolute;
        
-      
    }
 
-   body{
-       background-image: url(https://images.unsplash.com/photo-1612258707587-d568bdc32061?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80);
-   }
 
 
    .centered {
@@ -29,3 +27,11 @@
     transform: translate(-50%, -50%);
   }
 
+  .myform {
+   top: 3cm;
+   height: 20cm;
+   width: auto;
+
+  }
+  
+  
