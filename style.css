@@ -9,8 +9,9 @@
    }
 
    .content{
+       top: 110vh;
        width: 20cm;
-       height: 19cm;
+       height: 20cm;
        position: absolute;
        
       
@@ -19,10 +20,12 @@
    body{
        background-image: url(https://images.unsplash.com/photo-1612258707587-d568bdc32061?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80);
    }
-   /* Centered text */
-.centered {
+
+
+   .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
