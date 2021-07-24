@@ -1,7 +1,5 @@
 <b>AUTHOR</b><br>
 <i>Benedictus Mwanthi</i>
-<b>AUTHOR</b><br>
-<i>Benedictus Mwanthi</i>
 <p>This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
 <h1>Live Page</h1>
 https://benedictu.github.io/AKAN-NAME-GENERATOR/
