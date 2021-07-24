@@ -15,59 +15,57 @@
         <p class="To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.">
       </div>
 
-    
-          <div class="content ">
-            <div class="container">
-                      
-                <form onsubmit="return getAkanName()"><br>
-                  <br>
-                  <h4 class="text-capitalize text-white text-monospace header1"><strong>Generate Your Name Here!</h4><br></strong>
-                <label class="text-white" for="year-of-birth">
-                  Year
-                  <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
-                </label>
-                <label class="text-white text-centre  text-monospace" for="month-of-birth">
-                  Month
-                  <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
-                </label>
-                <label class="text-white" for="day-of-birth">
-                  Day
-                  <input class= "text-capitalize text-monospace text-dark" id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
-                </label>
-                <br>
-            <class class="forms">
-
-                <label class="text-white text-capitalize text-monospace text-lg-center text" for="gender"><br>
-                  <class class="text-monospace text-primary" > <b>Select your gender</b> </class>
-                  <br>Male
-                  <input class="text-white" id="male-input" type="radio" name="gender" value="male" required>
-                  Female
-                  <input class= "text-white" id="female-input w" type="radio" name="gender" value="female" required>
-      
-                </label>
-                <br><br>
-                <input class="bg-success forms" id="get-name" type="submit" name="" value="Generate name">
-                <br><br>
-                <h4 class="text-white " id = display-name></h4>
-
-                <p  class="text-capitalize text-break text-monospace text-white " id="result">
-                
-                <class  onsubmit="return clearInput()">
-                  <input class="clear bg-danger forms text-monospace text-center" type="submit" value="Clear input"><br>
-                    <br>
-                </p>
-            </class>
-                </form>
-              </form>
-              
-         
          </div>
       </div>
     </div>
-    <div class="slide">
+    <div class="cover2">
       <img src="https://images.unsplash.com/photo-1611561606608-d8871add9eb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="Avatar" class="image">
       <div class="overlay">
-        <div class="text">Hello World</div>
+            <div class="text">
+              <form onsubmit="return getAkanName()"><br>
+                <br>
+                <h4 class="text-capitalize text-white text-monospace header1"><strong>Generate Your Name Here!</h4><br></strong>
+              <label class="text-white" for="year-of-birth">
+                Year
+                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+              </label>
+              <label class="text-white text-centre  text-monospace" for="month-of-birth">
+                Month
+                <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+              </label>
+              <label class="text-white" for="day-of-birth">
+                Day
+                <input class= "text-capitalize text-monospace text-dark" id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+              </label>
+              <br>
+       
+
+              <label class="text-white text-capitalize text-monospace text-lg-center text" for="gender"><br>
+                <class class="text-monospace text-primary " > <b>Select your gender</b> </class><br>
+                <br>Male
+                <input class="text-white" id="male-input" type="radio" name="gender" value="male" required>
+                Female
+                <input class= "text-white" id="female-input w" type="radio" name="gender" value="female" required>
+              </label>
+              <br>
+              <br>
+              <br><br>
+              <br>
+              <input class="bg-success forms" id="get-name" type="submit" name="" value="Generate name">
+              <br><br>
+              <h4 class="text-white forms " id = display-name></h4>
+
+              <p  class="text-capitalize text-break text-monospace text-white " id="result">
+              
+              <class  onsubmit="return clearInput()">
+                <input class="clear bg-danger forms text-monospace text-center" type="submit" value="Clear input"><br>
+                  <br>
+              </p>
+          
+              </form>
+            </form>
+            
+        </div>
       </div>
     </div>
     <script src="style.js" ></script>
